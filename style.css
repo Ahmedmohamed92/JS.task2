@@ -1,0 +1,47 @@
+body {
+    background-color: blue;
+}
+.flex {
+    display:flex ;
+    flex-direction: column;
+    width: 700px;
+}
+.username {
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid gray;
+    height: 30px;
+    margin-top: 50px;
+}
+.email {
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid gray;
+    height: 30px;
+    margin-top: 10px;
+
+}
+.phone {
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid gray;
+    height: 30px;
+    margin-top: 10px;
+
+
+}
+.submit {
+    background-color: blue;
+    height: 30px; 
+    margin-top: 10px;
+    cursor: pointer;
+    width: 700px;
+}
+fieldset {
+    height: 500px;
+    width: 700px;
+    background-color: red;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+

@@ -1,0 +1,94 @@
+.flexx {
+    display: flex;
+    justify-content: space-between;
+}
+.left {
+    position: relative;
+    margin-left: 270px;
+    margin-top: 70px;
+}
+.text1 {
+    color: rgb(0, 64, 255);
+}
+.left h4 {
+    color: gray;
+}
+.left img {
+    width: 150px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.318);
+    position: absolute;
+    cursor: pointer;
+}
+.left h3 {
+    position: absolute;
+    top: 320px;
+    left: 40px;
+    cursor: pointer;
+}
+.border {
+    height: 320px;
+    border: 1px solid rgba(128, 128, 128, 0.318);
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border-radius: 5px;
+
+}
+.right {
+    margin-right: 270px;
+    margin-top: 150px;
+}
+.email {
+    height: 40px;
+    width: 350px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.318);
+    border-radius: 5px;
+    outline: none;
+}
+
+.pass {
+    margin-top: 20px;
+    height: 40px;
+    width: 350px;
+    margin-left: 20px ;
+    border: 1px solid rgba(128, 128, 128, 0.318);
+    border-radius: 5px;
+    outline: none;
+
+}
+.submit {
+    margin-top: 20px;
+    width: 350px;
+    margin-left: 20px;
+    height: 40px;
+    background-color: rgba(0, 64, 255, 0.815) ;
+    color: white;
+    border: 1px solid rgba(128, 128, 128, 0.318);
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+.submit:hover {
+    background-color:rgb(72, 0, 255) ;
+} 
+.right a {
+    margin-left: 110px;
+    color:rgba(0, 64, 255, 0.815) ;
+}
+.right .newacc {
+    width: 350px;
+    margin-left: 20px;
+    height: 40px;
+    background-color: rgba(0, 128, 45, 0.864);
+    color: white;
+    border: 1px solid rgba(128, 128, 128, 0.318);
+    cursor: pointer;
+    border-radius: 5px;
+}
+.right .newacc:hover {
+    background-color: rgb(11, 128, 0);
+}
